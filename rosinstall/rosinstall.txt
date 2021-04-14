@@ -1,0 +1,21 @@
+- git:
+    local-name: fast_gicp
+    uri: https://github.com/SMRT-AIST/fast_gicp.git
+- git:
+    local-name: hdl_graph_slam
+    uri: https://github.com/koide3/hdl_graph_slam.git
+- git:
+    local-name: interactive_slam
+    uri: https://github.com/SMRT-AIST/interactive_slam.git
+- git:
+    local-name: livox_ros_driver
+    uri: https://github.com/Livox-SDK/livox_ros_driver.git
+- git:
+    local-name: ndt_omp
+    uri: https://github.com/koide3/ndt_omp.git
+- git:
+    local-name: nv_base_generate
+    uri: https://github.com/I-Quotient-Robotics/nv_base_generate.git
+- git:
+    local-name: odometry_saver
+    uri: https://github.com/koide3/odometry_saver
