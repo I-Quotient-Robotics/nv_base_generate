@@ -4,8 +4,7 @@
 
   <param name="use_sim_time" value="true" />
 
-  <include file="$(find nv_base_generate)/launch/include/indoor_with_imu.launch.xml">
-    <!-- <arg name="log_type" value="$(arg log_type)" /> -->
+  <include file="$(find nv_base_generate)/launch/include/indoor.launch.xml">
   </include>
 
   <node name="rviz" pkg="rviz" type="rviz" args="-d $(find nv_base_generate)/viz/view.rviz" output="$(arg log_type)" />
